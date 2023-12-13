@@ -1,0 +1,100 @@
+body{
+  text-align: center; 
+  font-family: 'Dancing Script', cursive;
+  background-color: rgb(254, 211, 217);
+}
+
+.header{
+  margin-top: 50px;
+}
+.main-heading{
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive,sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-top: 0;
+}
+
+.sub-heading {
+  font-size: 18px;
+  color: white;
+}
+
+.main-section{
+  display: inline-block; 
+}
+
+.main-sub-section{
+  /* display: flex;
+  align-items: center;
+  justify-content: start; */
+  /* text-align: start; */
+  margin-bottom: 50px;
+  text-align: start;
+
+}
+
+.user-input {
+  font-size: 15px;
+  border: 2px solid rgb(159, 155, 155);
+  padding: 8px 15px;
+  border-radius: 20px;
+  width:250px;
+  font-size: 15px;
+
+}
+
+.user-input::placeholder{
+  color: grey;
+}
+
+.user-input:focus {
+  outline: none;
+}
+
+.user-input-text{
+  color: grey;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.enter-button, .clear-button{
+  font-size: 17px;
+  font-family: Arial;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(243, 91, 210);
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.enter-button:hover {
+  background-color: rgb(255, 101, 222);
+}
+
+.result-section {
+  margin-top: 30px;
+}
+
+.result-message {
+  font-size: 16px;
+  color: rgb(90, 87, 87);
+}
+
+.percentage{
+  color:rgb(226, 30, 184);
+}
+
+.clear-button{
+  
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+}
